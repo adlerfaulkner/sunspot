@@ -13,7 +13,7 @@ Gem::Specification.new do |s|
                   'Brian Atkinson', 'Tom Coleman', 'Matt Mitchell', 'Nathan Beyer', 'Kieran Topping', 'Nicolas Braem', 'Jeremy Ashkenas',
                   'Dylan Vaughn', 'Brian Durand', 'Sam Granieri', 'Nick Zadrozny', 'Jason Ronallo']
   s.email       = ["mat@patch.com"]
-  s.homepage    = 'https://github.com/adlerfaulkner/sunspot'
+  s.homepage    = 'https://github.com/adlerfaulkner/sunspot/tree/master/sunspot_solr'
   s.summary     = 'Bundled Solr distribution for Sunspot'
   s.license     = 'MIT'
   s.description = <<-TEXT

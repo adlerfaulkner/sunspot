@@ -38,7 +38,7 @@ Gem::Specification.new do |s|
     s.add_dependency 'rails', '>= 3'
   end
 
-  s.add_dependency 'sunspot', Sunspot::VERSION
+  s.add_dependency 'sunspot', Sunspot::VERSION, git: 'git://github.com/adlerfaulkner/sunspot.git', glob: '/sunspot/sunspot.gemspec', branch: :master
 
   s.add_development_dependency 'appraisal', '2.2.0'
   s.add_development_dependency 'bundler',  '>= 1.3.0', '< 2.0' if RUBY_VERSION <= '2.0.0'
@@ -48,7 +48,7 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'rspec-rails', '~> 3.7'
   s.add_development_dependency 'sqlite3',  '~> 1.3.0'
 
-  s.rdoc_options << '--webcvs=http://github.com/outoftime/sunspot/tree/master/%s' <<
+  s.rdoc_options << '--webcvs=http://github.com/adlerfaulkner/sunspot/tree/master/%s' <<
                   '--title' << 'Sunspot-Rails - Rails integration for the Sunspot Solr search library - API Documentation' <<
                   '--main' << 'README.rdoc'
 end

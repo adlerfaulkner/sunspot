@@ -1,3 +1,5 @@
 source "http://rubygems.org"
 
+gem 'sunspot', git: 'git://github.com/adlerfaulkner/sunspot.git', glob: 'sunspot/sunspot.gemspec', branch: :master
+
 gemspec

@@ -38,7 +38,7 @@ Gem::Specification.new do |s|
     s.add_dependency 'rails', '>= 3'
   end
 
-  s.add_dependency 'sunspot', Sunspot::VERSION, git: 'git://github.com/adlerfaulkner/sunspot.git', glob: '/sunspot/sunspot.gemspec', branch: :master
+  s.add_dependency 'sunspot', Sunspot::VERSION
 
   s.add_development_dependency 'appraisal', '2.2.0'
   s.add_development_dependency 'bundler',  '>= 1.3.0', '< 2.0' if RUBY_VERSION <= '2.0.0'
